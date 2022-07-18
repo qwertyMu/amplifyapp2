@@ -15,12 +15,3 @@ type Note @model {
   location: String
   image: String
 }
-
-type Person @model {
-  id: ID!
-  name: String!
-  pa: Int!
-  specialty: String!
-  perm: String!
-  image: String
-}
