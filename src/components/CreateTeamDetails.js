@@ -22,19 +22,6 @@ const CreateTeamDetails = props => {
     isEditing
   } = props;
 
-  // const [specialty, setSpecialty] = React.useState('');
-
-  // const handleSpecialtyChange = (event) => {
-    
-  //   setSpecialty(event.target.value);
-
-  // };
-  // const [permSwitch, setPermSwitch] = useState(true);
-
-  // const handlePermSwitch = (event) => {
-  //   setPermSwitch(event.target.checked);
-  // };
-
   return (
     <div className={classes.formWrapper} >
       <Card elevation={8}>
